@@ -8,7 +8,7 @@ use Magento\Framework\Pricing\PriceCurrencyInterface;
 
 /**
  * Class Custom
- * @package Meetanshi\HelloWorld\Model\Total\Quote
+ * @package Amper\Discounts\Model\Total\Quote
  */
 class Custom extends \Magento\Quote\Model\Quote\Address\Total\AbstractTotal
 {

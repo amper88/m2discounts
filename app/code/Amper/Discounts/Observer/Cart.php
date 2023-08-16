@@ -6,9 +6,10 @@ namespace Amper\Discounts\Observer;
 use Magento\Framework\Event\ObserverInterface;
 use Amper\Discounts\Helper\Data as DiscountsHelper;
 use Magento\Framework\Event\Observer;
+
 /**
  * Class Cart
- * @package VendorName\Changeprice\Observer
+ * @package Amper\Discounts\Observer
  */
 class Cart implements ObserverInterface
 {

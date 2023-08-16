@@ -1,18 +1,15 @@
 <?php
 declare(strict_types=1);
-/**
- * @by SwiftOtter, Inc. 7/3/21
- * @website https://swiftotter.com
- **/
 
 namespace Amper\Discounts\Observer;
+
 use Magento\Checkout\Model\Session as CheckoutSession;
 use Magento\Framework\Event\ObserverInterface;
 use Amper\Discounts\Helper\Data as DiscountsHelper;
 
 /**
  * Class Updatecart
- * @package VendorName\Changeprice\Observer
+ * @package Amper\Discounts\Observer
  */
 class Updatecart implements ObserverInterface
 {
