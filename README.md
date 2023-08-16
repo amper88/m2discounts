@@ -7,10 +7,10 @@
 - Remove your static assets => rm -rf var/view_preprocessed/* pub/static/frontend/* var/cache/*
 - Remove your generated Magento directory => rm -rf generated/*
 - run the following commands:
--- php bin/magento setup:upgrade
--- php bin/magento setup:di:compile
--- php bin/magento s:s:d -f (if you are on production mode)
--- php bin/magento ca:fl
+  - php bin/magento setup:upgrade
+  - php bin/magento setup:di:compile
+  - php bin/magento s:s:d -f (if you are on production mode)
+  - php bin/magento ca:fl
 
 ### Configuration
 You need to get logged into your Magento admin panel, and go into Stores > Configuration > AMPer > Discounts, in there you will find all the corresponding parameters to get this module configured as your preferences.
