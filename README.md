@@ -1,6 +1,6 @@
 # m2discounts
 
-## This module is to show up the ways of how can we get custom discounts on our Magento store.
+## This module allows store owners to configure two kind of discounts to customers. First one is when they reached a certain qty of an item in the cart. Second one, when the subtotal of the whole cart reached another configurable amount.
 
 ### Installation
 - Clone the project on your magento root directory. The module Amper/Discounts needs to be inside your app/code directory.
