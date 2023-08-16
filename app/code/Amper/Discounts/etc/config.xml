@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <discounts>
+            <general>
+                <enable>1</enable>
+                <qty_item_discount>5</qty_item_discount>
+                <qty_item_discount_amount>10</qty_item_discount_amount>
+                <total_cart_amount>1000</total_cart_amount>
+                <total_cart_discount>5</total_cart_discount>
+            </general>
+        </discounts>
+    </default>
+</config>
